@@ -1,0 +1,193 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+        /* start COLLECTIF STYLE */
+
+.d-flex   {
+  display: flex;
+}
+
+.d-column  {
+  flex-direction: column;
+}
+
+#logo, h1, h2, b, h5, nav a {
+  font-weight: bold;
+}
+
+#logo , h3 {
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+h2 , .footer a {
+  color:#f44336 ;
+}
+
+h3 , h4 , p {
+    margin-bottom: 16px;
+  }
+nav , nav a , #pro , #basic , #signUpPro , button{
+    color: white;
+    
+}
+nav, #pro , #signUpPro , button {
+    background-color: #f44336;
+}
+.cards , form , .iconsFooter{
+  gap: 15px;
+} 
+
+.designer-info h4 , .per , .footer a:last-child{
+  color: #737373;
+}
+input , button {
+    padding: 10px;
+  }
+
+.designer-card , .tablePack> ul, footer{
+    background-color: #f1f1f1;
+  }
+  #signUpBasic , #signUpPro , input , button{
+    border-radius: 2%;
+  }
+
+         /* end COLLECTIF STYLE */
+
+/* navbar */
+nav {
+  position: fixed;
+  height: 100%;
+  width: 24%;
+  padding: 1% 7% 1% 3%;
+  justify-content: space-around;
+}
+nav ul {
+  gap: 1.2rem;
+}
+
+ nav li {
+  font-size: 1.2rem;
+  padding-left: 4%;
+}
+
+nav li:hover{
+  border-left: 2px solid white;
+}
+
+/* main page */
+
+main {
+  padding: 5%;
+  margin-left: 24%;
+}
+/* header */
+h1 {
+  font-size: 4rem;
+}
+
+        /*  section's commun elements */
+h2 {
+  font-size: 3rem;
+  margin-bottom: 67px;
+}
+
+h2::before {
+  position: absolute;
+  content: "";
+  width: 61px;
+  height: 10px;
+  margin-top: 1.7em;
+  background: #f44336;
+  border-radius: 25px;
+}
+
+.wrapper {
+  padding: 5% 0;
+  position: relative;
+}
+/* section showcase */
+
+.cards {
+  flex-wrap: wrap;
+}
+
+#showcase  img {
+  max-width: 49%;
+}
+.cards img {
+  opacity: 0.8;
+}
+/* section designers */
+
+.designer-card {
+  flex: 1 30%;
+}
+.designer-image img {
+  max-width: 100%;
+}
+.designer-info {
+  padding: 0 6% ;
+}
+
+/* section packages */
+.tablePack {
+    text-align: center;
+    flex-grow: 1;
+}
+
+#basic{
+    background-color: #616161;
+}
+#basic , #pro {
+    margin-bottom: 0;
+    padding: 32px;
+}
+span:first-of-type {
+    font-size: 2rem;
+}
+.tablePack  li {
+    border-bottom: 1px solid #73737317;
+    padding: 4% 0;
+}
+.tablePack  li:last-child {
+  padding: 8% 0;
+}
+
+#signUpBasic , #signUpPro {
+    padding: 11px 20px;
+}
+
+#signUpBasic {
+    background-color:white ;
+    color:black;
+}
+/* contact form */
+
+input {
+  border: 1px solid #73737336;
+}
+input:focus {
+  outline: none;
+}
+form button {
+  border: none;
+  font-size: 1rem;
+}
+
+/* footer */
+
+.footer {
+  padding: 0 3%;
+  height: 100px;
+  justify-content: flex-end;
+  align-items: center;
+}
