@@ -24,9 +24,12 @@ html {
   font-weight: bold;
 }
 
-#logo , h3 {
+#logo  {
   font-size: 2.5rem;
   letter-spacing: 1px;
+}
+h3{
+  font-size: 1.5rem;
 }
 h2 , .footer a {
   color:#f44336 ;
